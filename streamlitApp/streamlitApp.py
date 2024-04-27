@@ -42,7 +42,7 @@ st.divider()
 # --- DISPLAY CLUSTERGENRES DATAFRAME
 
 # --- IMPORT CLUSTERGENRES
-df_clustergenres = pd.read_csv('cluster_genres.csv')
+df_clustergenres = pd.read_csv('https://github.com/irnscvngr/moosic_USML_project/blob/main/streamlitApp/cluster_genres.csv')
 df_clustergenres['main_genres'] = df_clustergenres['main_genres'].astype(str)
 
 # --- DISPLAY DATAFRAME
