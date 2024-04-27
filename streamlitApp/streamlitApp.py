@@ -28,6 +28,8 @@ st.image('streamlitApp/Moose_Logo.png')
 This assistant draws from our music database and provides you with
 pre-sorted lists of songs. Pre-sorting is based on auditive features using ML and thereby prone to error.
 
+Have a look at the visualization below to see how the song-clusters differ in auditive features and see how various songs compare.
+
 *Use with caution for playlist generation.*
 '''
 st.divider()
@@ -146,7 +148,7 @@ df_songs_trimmed = (
 
 # --- DISPLAY TOTAL NUMBER OF SONGS
 f'''
-{df_songs_trimmed.shape[0]} songs total
+{df_songs_trimmed.shape[0]} songs total in active clusters.
 '''
 
 # --- DISPLAY TRIMMED SONGS-DF
@@ -187,7 +189,7 @@ def ffunc(sl):
     return select
 
 sl = st.selectbox(
-    'Select a song:',
+    'Select a song for playback:',
     options = df_selectsongs.index,
     format_func = ffunc,
     key = 'song_selectbox1'
@@ -227,7 +229,7 @@ if 'song_selectbox2' not in st.session_state:
 df_selectsongs2 = df_selectsongs[df_selectsongs.index!=sl]
 
 sl2 = st.selectbox(
-    'Select a song:',
+    'Select a song to compare auditive features:',
     options = df_selectsongs2.index,
     format_func = ffunc,
     key = 'song_selectbox2'
