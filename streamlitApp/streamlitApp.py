@@ -359,8 +359,8 @@ fig.update_layout(
     ),
     # Set legend position
     legend=dict(
-        x = 0.15,  # Set the x coordinate of the legend
-        y = 1.33   # Set the y coordinate of the legend
+        x = 0,  # Set the x coordinate of the legend
+        y = 1.3   # Set the y coordinate of the legend
     ),
     # Toggle legend visibility
     showlegend=True,
