@@ -325,9 +325,9 @@ fig.add_traces(trace_objects)
 fig.update_layout(
     # Add plot-title
     # title_text = 'Main genres Pop & Death Metal compared by audio features',
-    # Set plot-size in pixels
-    height = 600,
-    width = 700,
+    # Set plot-size
+    # 'None' to make figure conform to site width
+    width = None,
     # Font-settings
     font=dict(
         color='white',
