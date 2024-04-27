@@ -42,7 +42,7 @@ st.divider()
 # --- DISPLAY CLUSTERGENRES DATAFRAME
 
 # --- IMPORT CLUSTERGENRES
-df_clustergenres = pd.read_csv('cluster_genres.csv')
+df_clustergenres = pd.read_csv('streamlitApp/cluster_genres.csv')
 df_clustergenres['main_genres'] = df_clustergenres['main_genres'].astype(str)
 
 # --- DISPLAY DATAFRAME
@@ -131,7 +131,7 @@ st.divider()
 '''
 
 # --- IMPORT SONG-LIST
-df_songs = pd.read_csv('spotify_5000_songs_clustered.csv')
+df_songs = pd.read_csv('streamlitApp/spotify_5000_songs_clustered.csv')
 df_songs[['song_name','artist','id','html']] = df_songs[['song_name','artist','id','html']].astype(str)
 
 # --- MAKE TRIMMED SONGS-DF
@@ -413,7 +413,7 @@ st.dataframe((df_songs_compare
 
 coll,colm,colr = st.columns([1.2,1,1])
 with colm:
-   st.image('https://github.com/irnscvngr/moosic_USML_project/blob/main/streamlitApp/Moose_Logo_small.png')
+   st.image('streamlitApp/Moose_Logo_small.png')
 
 
 # Don't add linebreak after \n\n -> Link will not be displayed properly
