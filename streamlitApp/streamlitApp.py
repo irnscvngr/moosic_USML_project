@@ -91,6 +91,7 @@ cl_select = st.multiselect(
 
 # Stop creating remaining app-parts in case no cluster is selected
 if not cl_select:
+    st.write('No cluster selected.')
     exit()
 
 # --- GET SELECTED GENRE-LISTS
