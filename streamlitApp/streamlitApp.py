@@ -19,7 +19,7 @@ import plotly.graph_objects as go
 # =============================================================================
 # PAGE TITLE AND IMAGE
 # =============================================================================
-st.image('Moose_Logo.png')
+st.image('https://github.com/irnscvngr/moosic_USML_project/blob/main/streamlitApp/Moose_Logo.png')
 
 # Draw a title and some text to the app:
 '''
@@ -413,7 +413,7 @@ st.dataframe((df_songs_compare
 
 coll,colm,colr = st.columns([1.2,1,1])
 with colm:
-   st.image('Moose_Logo_small.png')
+   st.image('https://github.com/irnscvngr/moosic_USML_project/blob/main/streamlitApp/Moose_Logo_small.png')
 
 
 # Don't add linebreak after \n\n -> Link will not be displayed properly
