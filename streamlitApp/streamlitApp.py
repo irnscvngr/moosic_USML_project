@@ -19,7 +19,7 @@ import plotly.graph_objects as go
 # =============================================================================
 # PAGE TITLE AND IMAGE
 # =============================================================================
-st.image('https://github.com/irnscvngr/moosic_USML_project/blob/main/streamlitApp/Moose_Logo.png')
+st.image('streamlitApp/Moose_Logo.png')
 
 # Draw a title and some text to the app:
 '''
