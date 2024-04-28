@@ -340,8 +340,6 @@ fig.add_traces(trace_objects)
 fig.update_layout(
     # Disable interactivity
     dragmode = False,
-    zoommode = False,
-    updatemenus = False,
     # Set plot-size
     # 'None' to make figure conform to site width
     width = None,
