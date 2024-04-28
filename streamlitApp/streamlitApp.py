@@ -338,8 +338,10 @@ fig.add_traces(trace_objects)
 
 # --- ADJUST APPEARANCE
 fig.update_layout(
-    # Add plot-title
-    # title_text = 'Main genres Pop & Death Metal compared by audio features',
+    # Disable interactivity
+    dragmode = False,
+    zoommode = False,
+    updatemenus = False,
     # Set plot-size
     # 'None' to make figure conform to site width
     width = None,
