@@ -426,10 +426,11 @@ st.dataframe((df_songs_compare
              height = 540
              )
 
+st.divider()
+
 coll,colm,colr = st.columns([1.2,1,1])
 with colm:
    st.image('streamlitApp/Moose_Logo_small.png')
-
 
 # Don't add linebreak after \n\n -> Link will not be displayed properly
 md = """
