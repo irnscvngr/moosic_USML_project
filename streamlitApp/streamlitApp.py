@@ -345,7 +345,7 @@ fig.update_layout(
     width = None,
     # Font-settings
     font=dict(
-        color='rgba(0.5,0.5,0.5,0)',
+        color='rgba(0.5,0.5,0.5,1)',
         family='Roboto',
         size=12
     ),
