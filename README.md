@@ -1,7 +1,7 @@
 # Moosic Unsupervised Machine Learning Project
 
 <p align='center'>
-  <img src="images/Logos1.png">
+  <img src="images/Logos1b.png">
 </p>
 
 
