@@ -19,6 +19,18 @@ import plotly.graph_objects as go
 # =============================================================================
 # PAGE TITLE AND IMAGE
 # =============================================================================
+about = '''
+	Made by Patrick Hausmann.\n
+ 	2024\n
+  	www.github.com/irnscvngr
+   	'''
+menu_items = dict(about = about)
+
+st.set_page_config(page_title = 'Moosic Playlist Assistant',
+		   page_icon = 'streamlitApp/favicon.png',
+		   menu_items = menu_items,
+		  )
+
 st.image('streamlitApp/Moose_Logo.png')
 
 # Draw a title and some text to the app:
